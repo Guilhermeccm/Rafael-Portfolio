@@ -1,12 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600&display=swap");
+
 body {
   margin: 0;
-}
-.hello {
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: auto;
-  background-color: #fbfbfd;
 }
 
 .container {
@@ -15,10 +10,23 @@ body {
   max-width: 1200px;
 }
 
+.nav-container {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 5;
+
+  padding-left: 360px;
+  padding-right: 280px;
+  background-color: #fbfbfd;
+}
+
 .w-container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 940px
+  max-width: 1040px;
 }
 
 .navbar-container::after,
@@ -36,7 +44,7 @@ body {
 }
 
 .navbar {
-  position: relative;
+  position: static;
   float: right;
 }
 .logo-link {
@@ -295,8 +303,8 @@ body {
 }
 
 .em-breve {
-  width: 389px;
-  height: 256px;
+  width: 336px;
+  height: 221px;
 }
 
 .about-me {
@@ -337,6 +345,7 @@ body {
   margin: auto;
 }
 
+
 .button {
   position: static;
   margin-right: 48px;
@@ -349,20 +358,20 @@ body {
   background-clip: border-box;
   -webkit-text-fill-color: inherit;
   -o-object-fit: fill;
-  object-fit: fill
+  object-fit: fill;
 }
 
 .button:hover {
-  background-color: #0066d6
+  background-color: #0066d6;
 }
 
 .button:active {
-  background-color: #1f4999
+  background-color: #1f4999;
 }
 
 .button:focus-visible {
   outline-offset: 4px;
-  outline: #007aff solid 4px
+  outline: #007aff solid 4px;
 }
 
 .w-button {
@@ -381,15 +390,15 @@ body {
 .button.resume {
   margin-left: -24px;
   background-color: transparent;
-  color: #007aff
+  color: #007aff;
 }
 
 .button.resume:hover {
-  background-color: #e9e9eb
+  background-color: #e9e9eb;
 }
 
 .button.resume:active {
-  background-color: #d3d3d3
+  background-color: #d3d3d3;
 }
 
 .paragraph {
@@ -405,7 +414,7 @@ body {
   font-weight: 400;
   white-space: normal;
   -o-object-fit: fill;
-  object-fit: fill
+  object-fit: fill;
 }
 
 .euzim {
@@ -416,16 +425,11 @@ body {
   float: right;
 }
 
-
-
-
-
-
 .gallery {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.25fr auto auto;
+  grid-template-columns: 0.25fr 0.25fr 0.25fr;
   row-gap: 15px;
+  column-gap: 15px;
 
 }
 
@@ -433,8 +437,8 @@ body {
   width: 336px;
   height: 224px;
   border-radius: 8px;
-  -webkit-transition: .2s;
-  transition: .2s;
+  -webkit-transition: 0.2s;
+  transition: 0.3s;
 }
 
 .image-16:hover {
@@ -443,11 +447,8 @@ body {
   outline: #252525 solid 1px;
   -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);
-  transform: scale(1.03)
+  transform: scale(1.03);
 }
-
-
-
 
 .link-externo {
   position: static;
@@ -463,7 +464,7 @@ body {
   background-clip: border-box;
   -webkit-text-fill-color: inherit;
   -o-object-fit: fill;
-  object-fit: fill
+  object-fit: fill;
 }
 
 .email-c-icon {
@@ -495,5 +496,5 @@ body {
   font-family: Outfit, sans-serif;
   line-height: 1;
   font-weight: 400;
-  text-decoration: none
+  text-decoration: none;
 }
