@@ -356,7 +356,6 @@ body {
     position: static;
     overflow: visible;
     width: auto;
-
     margin-bottom: 200px;
     font-family: Outfit, sans-serif;
     color: #777777;
@@ -366,4 +365,50 @@ body {
     white-space: normal;
     -o-object-fit: fill;
     object-fit: fill;
+  }
+
+  .separation {
+    width: 1040px;
+    background-color: #E9E9EB;
+    margin-bottom: 48px;
+    padding-bottom: 1px;
+  }
+
+  .question-grid {
+    position: static;
+    display: grid;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .question {
+    position: static;
+    overflow: visible;
+    max-width: 450px;
+    margin-bottom: 20px;
+    font-family: Outfit, sans-serif;
+    color: #252525;
+    font-size: 18px;
+    line-height: 28px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: left;
+    white-space: normal;
+    object-fit: fill;
+  }
+
+  .answer {
+    position: static;
+    overflow: visible;
+    width: auto;
+    max-width: 35ch;
+    margin-top: 8px;
+    font-family: Outfit, sans-serif;
+    color: #252525;
+    font-size: 20px;
+    line-height: 28px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: left;
   }
