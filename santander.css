@@ -278,23 +278,23 @@ body {
 }
 
 .unordered-list {
-   position: static;
-   overflow: visible;
-   width: auto; 
-   max-width: 54ch;
-   margin-bottom: 24px;
-   font-family: Outfit, sans-serif;
-   color: #252525;
-   font-size: 18px;
-   line-height: 28px;
-   font-weight: 400;
-   text-align: left;
-   white-space: normal;
+  position: static;
+  overflow: visible;
+  width: auto;
+  max-width: 54ch;
+  margin-bottom: 24px;
+  font-family: Outfit, sans-serif;
+  color: #252525;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  text-align: left;
+  white-space: normal;
 }
 
 .list-item {
-    display: list-item;
-    text-align: -webkit-match-parent;
+  display: list-item;
+  text-align: -webkit-match-parent;
 }
 
 /* SECTION 3 ENDING -------------------- */
@@ -302,6 +302,196 @@ body {
 /* SECTION 4 BEGINNING -------------------- */
 
 .section-4 {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.paragraph-6 {
+  display: inline-block;
+  float: right;
+  width: auto;
+  max-width: 615px;
+  font-family: Outfit, sans-serif;
+  color: #252525;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.heading-4 {
+  display: inline-block;
+  width: 100px;
+  margin-bottom: 24px;
+  flex-direction: row;
+  font-family: Outfit, sans-serif;
+  color: #252525;
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: 700;
+  text-align: left;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.img-entrevistas {
+  border: 0;
+  width: 1200px;
+  margin-top: 60px;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  float: left;
+}
+
+.paragraph-7 {
+  position: static;
+  overflow: visible;
+  width: auto;
+  margin-bottom: 200px;
+  font-family: Outfit, sans-serif;
+  color: #777777;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  white-space: normal;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.separation {
+  width: 1040px;
+  background-color: #e9e9eb;
+  margin-bottom: 48px;
+  padding-bottom: 1px;
+}
+
+.question-grid {
+  position: static;
+  display: grid;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.question {
+  position: static;
+  overflow: visible;
+  max-width: 450px;
+  margin-bottom: 20px;
+  font-family: Outfit, sans-serif;
+  color: #252525;
+  font-size: 18px;
+  line-height: 28px;
+  font-style: italic;
+  font-weight: 300;
+  text-align: left;
+  white-space: normal;
+  object-fit: fill;
+}
+
+.answer {
+  position: static;
+  overflow: visible;
+  width: auto;
+  max-width: 35ch;
+  margin-top: 8px;
+  font-family: Outfit, sans-serif;
+  color: #252525;
+  font-size: 20px;
+  line-height: 28px;
+  font-style: italic;
+  font-weight: 500;
+  text-align: left;
+}
+
+.img-questionary {
+  max-width: 49%;
+  margin-top: 46px;
+  float: none;
+}
+
+.heading-6 {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 24px;
+  font-family: Outfit, sans-serif;
+  color: #252525;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+/* SECTION 4 ENDING -------------------- */
+
+/* SECTION 5 BEGINNING -------------------- */
+
+.section-5 {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #fbfbfd;
+}
+
+.img-site {
+  width: 100%;
+  max-width: none;
+  margin-top: 64px;
+  margin-right: auto;
+  margin-left: auto;
+  object-fit: fill;
+}
+
+/* SECTION 5 ENDING -------------------- */
+
+/* SECTION 6 BEGINNING -------------------- */
+
+.section-6 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+}
+
+/* SECTION 6 ENDING -------------------- */
+
+/* SECTION 7 BEGGINGING -------------------- */
+.section-7 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fbfbfd;
+}
+
+/* SECTION 7 ENDING -------------------- */
+
+/* SECTION 8 BEGGINGING -------------------- */
+
+.section-8 {
     padding-top: 130px;
     padding-bottom: 130px;
     margin-right: auto;
@@ -313,102 +503,114 @@ body {
     flex-direction: column;
 }
 
-.paragraph-6 {
-    display: inline-block;
-    float: right;
-    width: auto;
-    max-width: 615px;
-    font-family: Outfit, sans-serif;
-    color: #252525;
-    margin-bottom: 10px;
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 400;
-  
+
+
+/* SECTION 8 ENDING -------------------- */
+
+/* SECTION 9 BEGGINGING -------------------- */
+
+.section-9 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fbfbfd;
 }
 
-.heading-4 {
-    display: inline-block;
-    width: 100px;
-    margin-bottom: 24px;
-    flex-direction: row;
-    font-family: Outfit, sans-serif;
-    color: #252525;
-    font-size: 32px;
-    line-height: 45px;
-    font-weight: 700;
-    text-align: left;
-    -o-object-fit: fill;
-    object-fit: fill;
-  }
+/* SECTION 9 ENDING -------------------- */
 
-  .img-entrevistas {
-    border: 0;
-    width: 1200px;
-    margin-top: 60px;
-    max-width: 100%;
-    vertical-align: middle;
-    display: inline-block;
-    float: left;
-  }
+/* SECTION 10 BEGGINGING -------------------- */
 
-  .paragraph-7 {
-    position: static;
-    overflow: visible;
-    width: auto;
-    margin-bottom: 200px;
-    font-family: Outfit, sans-serif;
-    color: #777777;
-    font-size: 16px;
-    line-height: 28px;
-    font-weight: 400;
-    white-space: normal;
-    -o-object-fit: fill;
-    object-fit: fill;
-  }
+.section-10 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+}
 
-  .separation {
-    width: 1040px;
-    background-color: #E9E9EB;
-    margin-bottom: 48px;
-    padding-bottom: 1px;
-  }
+.img-crazy-8 {
+   width: 410px; 
+   float: right;
+   margin-top: -180px;
+}
 
-  .question-grid {
-    position: static;
-    display: grid;
-    grid-column-gap: 16px;
-    grid-row-gap: 16px;
-    grid-template-columns: 1fr 1fr;
-  }
+.img-mid-fi, .img-hi-fi {
+    width: 1080px;
+    margin-top: 30px;
+}
 
-  .question {
-    position: static;
-    overflow: visible;
-    max-width: 450px;
-    margin-bottom: 20px;
-    font-family: Outfit, sans-serif;
-    color: #252525;
-    font-size: 18px;
-    line-height: 28px;
-    font-style: italic;
-    font-weight: 300;
-    text-align: left;
-    white-space: normal;
-    object-fit: fill;
-  }
+/* SECTION 10 ENDING -------------------- */
 
-  .answer {
-    position: static;
-    overflow: visible;
-    width: auto;
-    max-width: 35ch;
-    margin-top: 8px;
-    font-family: Outfit, sans-serif;
-    color: #252525;
-    font-size: 20px;
-    line-height: 28px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: left;
-  }
+/* SECTION 11 BEGGINGING -------------------- */
+
+.section-11 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fbfbfd;
+}
+
+.img-50-phone {
+    float: right;
+    margin-top: -690px;
+    margin-right: -60px;
+}
+
+/* SECTION 11 ENDING -------------------- */
+
+/* SECTION 12 BEGGINGING -------------------- */
+
+.section-12 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.img-goofy {
+    float: right;
+    margin-top: -436px;
+}
+
+/* SECTION 12 ENDING -------------------- */
+
+
+/* SECTION 13 BEGGINGING -------------------- */
+
+.section-13 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fbfbfd;
+}
+
+
+
+/* SECTION 13 ENDING -------------------- */
